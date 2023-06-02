@@ -161,10 +161,6 @@ class _CustomSliderButtonState extends State<CustomSliderButton>
                       child: Container(
                         width: widget.width,
                         height: widget.height,
-                        decoration: const BoxDecoration(
-                            // shape: BoxShape.circle,
-                            // color: Colors.red,
-                            ),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
