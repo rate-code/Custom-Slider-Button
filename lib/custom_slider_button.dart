@@ -4,12 +4,10 @@ import 'package:responsive_sizer/responsive_sizer.dart';
 class CustomSliderButton extends StatefulWidget {
   final double width;
   final double height;
-  final ValueChanged<bool> onSlideCompleted;
 
   CustomSliderButton({
     required this.width,
     required this.height,
-    required this.onSlideCompleted,
   });
 
   @override
@@ -47,9 +45,6 @@ class _CustomSliderButtonState extends State<CustomSliderButton>
       if (_value == 1) {
         _isSlideCompleted = true;
         _controller.forward();
-        Future.delayed(const Duration(seconds: 2), () {
-          widget.onSlideCompleted(true);
-        });
       } else {
         _isSlideCompleted = false;
         _controller.reset();

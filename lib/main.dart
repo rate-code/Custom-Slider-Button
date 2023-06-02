@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: CustomSliderButton(height: 70, width: 80.w, onSlideCompleted: (bool value) {  },),
+        home: CustomSliderButton(height: 70, width: 80.w),
       );
     });
   }
