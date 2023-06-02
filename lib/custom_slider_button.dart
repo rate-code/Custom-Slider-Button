@@ -152,7 +152,7 @@ class _CustomSliderButtonState extends State<CustomSliderButton>
                         style: TextStyle(
                           color: Colors.deepPurple,
                           fontSize: 17.sp,
-                          fontWeight: FontWeight.bold,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                     ),
