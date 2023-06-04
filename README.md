@@ -18,10 +18,8 @@ Experience the power of the Custom Slider Button and elevate your application's 
 
 ## Design
 
-![Initial Phase](./initial.png "Slider Button Initial phase") | ![Final Phase](./final.png "Slider Button Final phase")
-
-| AWS                                                   | Git                                           |
+| Initial Phase                                         | Final Phase                                   |
 | ----------------------------------------------------- | --------------------------------------------- |
-| ![aws bootstrap](./initial.png 'title A') | ![git hooks](./initial.png 'title B') |
+| ![Initial Phase](./initial.png "Slider Button Initial phase") | ![Final Phase](./final.png "Slider Button Final phase") |
 
 
