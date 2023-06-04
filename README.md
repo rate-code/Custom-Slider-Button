@@ -18,5 +18,5 @@ Experience the power of the Custom Slider Button and elevate your application's 
 
 ## Design
 
-![Initial Phase](./initial.png "Slider Button Initial phase" = 50%x) ![Final Phase](./final.png "Slider Button Final phase" = 50%x)
+![Initial Phase](./initial.png "Slider Button Initial phase") | ![Final Phase](./final.png "Slider Button Final phase")
 
