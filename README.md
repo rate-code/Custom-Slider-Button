@@ -13,7 +13,7 @@ The Custom Slider Button is an impressive UI element that adds a touch of elegan
 
 + Responsive and Cross-Platform: The Custom Slider Button is designed to be fully responsive, adapting effortlessly to different screen sizes and devices. It works seamlessly across various platforms, including web browsers and mobile devices, ensuring a consistent user experience.
 
-Experience the power of the Custom Slider Button and elevate your application's user interface to new heights. Download and integrate this feature-rich component into your projects on GitHub today.
+Experience the power of the Custom Slider Button and elevate your application's user interface to new heights. Download and integrate this component into your projects today.
 
 
 ## Design
