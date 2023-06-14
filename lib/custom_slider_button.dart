@@ -1,3 +1,6 @@
+import 'dart:async';
+
+import 'package:buttons/new.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
@@ -5,7 +8,8 @@ class CustomSliderButton extends StatefulWidget {
   final double width;
   final double height;
 
-  CustomSliderButton({
+  const CustomSliderButton({
+    super.key,
     required this.width,
     required this.height,
   });
@@ -50,6 +54,13 @@ class _CustomSliderButtonState extends State<CustomSliderButton>
         _controller.reset();
       }
     });
+
+    if (_isSlideCompleted) {
+      Timer(const Duration(milliseconds: 1500), () async {
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => const NewPage()));
+      });
+    }
   }
 
   void _onTapDown(TapDownDetails details) {
